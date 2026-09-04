@@ -1,0 +1,16 @@
+{
+  "name": "rubric-notary",
+  "version": "0.1.0",
+  "description": "Prove a record existed, unaltered, at a point in time. Anchored to public consensus, verifiable by anyone, free to verify forever.",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "bin": { "rubric-notary": "dist/bin/cli.js" },
+  "files": ["dist", "README.md"],
+  "scripts": { "build": "tsc" },
+  "keywords": ["notary", "timestamp", "attestation", "proof", "evidence", "audit", "hedera", "x402", "tamper-evident"],
+  "author": "Echelon Intelligence Group LLC",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/0xsims/rubric-notary" },
+  "devDependencies": { "typescript": "^5.5.0", "@types/node": "^20.0.0" }
+}
